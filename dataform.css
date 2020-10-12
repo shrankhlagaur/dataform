@@ -4,7 +4,7 @@ background-image: url(back1.jfif);
     display: grid;
     justify-content: center;
     height: 100%;
-     }
+     
 
 .contact {
       align-self: center;
@@ -14,7 +14,7 @@ background-image: url(back1.jfif);
       padding: 0 20px;
       font-size: 0.8em;
     }
- #Contact h2 {
+  h2 {
       font-family: 'Open Sans', sans-serif;
       font-size: 2.5em;
       border: 1px solid #555;
@@ -35,10 +35,8 @@ background-image: url(back1.jfif);
 
 /*#contactform {
     height: 215px;}*/
-.right {
-      float: right;
-    }
-  #contactform  input {
+
+ input {
       margin-bottom: 14px;
       width: 100%;
       outline: none;
@@ -50,7 +48,7 @@ background-image: url(back1.jfif);
       height: 44px;
       border-radius: 0;
     }
-   #contactform textarea {
+ textarea {
       margin-bottom: 14px;
       width: 100%;
       outline: none;
@@ -62,7 +60,7 @@ background-image: url(back1.jfif);
       height: 218px;
       border-radius: 0;
     }
-  #contactform  btn btn-lg{
+ btn btn-lg{
       width: 100%;
       height: 50px;
       border-radius: 0;
